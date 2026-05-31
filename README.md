@@ -52,3 +52,31 @@ Because the operating frequency is very low, the near-field boundary extends far
 2. Open MATLAB and navigate to the repository directory.
 3. Run `App_ideal.m` in the MATLAB Command Window to launch the WPT Link Budget Calculator App.
 4. To run the circuit simulations, open `LTspice simulation.asc` in LTspice. You can use the generated logs in MATLAB via the `parse_ltspice_log.m` script.
+
+
+
+## Research Roadmap
+
+| Phase | Status | Description |
+|---|---|---|
+| MATLAB Physics Engine | ✅ Complete | Dual-regime far-field/near-field model, crossover detection, 14-test verification suite |
+| LTspice Circuit Simulation | ✅ Complete | HSMS-2850 half-wave and voltage doubler characterization at 2.45 GHz |
+| Hardware Fabrication | 🔜 Fall 2025 | HSMS-2850 rectenna PCBs, impedance matching network |
+| Hardware Validation | 🔜 Fall 2025 | NanoVNA S₁₁ measurements, RTL-SDR power measurements vs. simulation |
+| Multi-Frequency Comparison | 🔜 Planned | 915 MHz, 2.45 GHz, 5.8 GHz side-by-side efficiency characterization |
+| Research Publication | 🔜 Planned | Formal crossover analysis paper |
+
+## Acknowledgements
+
+- **HSMS-2850 SPICE model parameters** — Broadcom / Avago Technologies, 
+  Application Note AN1020
+- **Modified Wheeler inductance formula** — Mohan, N. et al. (1999). 
+  *Simple accurate expressions for planar spiral inductances*. 
+  IEEE Journal of Solid-State Circuits
+- **Friis transmission equation** — Friis, H.T. (1946). 
+  *A note on a simple transmission formula*. 
+  Proceedings of the IRE
+- **Coupled-resonator efficiency formula** — Kurs, A. et al. (2007). 
+  *Wireless power transfer via strongly coupled magnetic resonances*. 
+  Science
+```
