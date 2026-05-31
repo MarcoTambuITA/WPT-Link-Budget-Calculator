@@ -1,5 +1,9 @@
 # WPT Link Budget Calculator
 
+[![MATLAB](https://img.shields.io/badge/MATLAB-%230076fe?style=flat-square&logo=mathworks&logoColor=white)](<https://www.mathworks.com/downloads/>)
+[![LTspice](https://img.shields.io/badge/LTspice-%23d2232a?style=flat-square)](<https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html>)
+[![USF EE Research](https://img.shields.io/badge/USF_EE-Research-%23006747?labelColor=%23CFC096&style=flat-square)](<https://www.usf.edu/engineering/>)
+
 This repository contains a Wireless Power Transfer (WPT) Link Budget Calculator, designed as a comprehensive MATLAB application with accompanying core models and an LTspice simulation.
 
 ## Features
