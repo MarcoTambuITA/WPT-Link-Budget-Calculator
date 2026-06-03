@@ -1,13 +1,10 @@
-# Block everything by default
-*
+# Ignore only files I don't want
 
-# Allow directories so Git can traverse the folder structure
-!*/
+*.md
+*.mlapp
 
-# Explicitly allow MATLAB scripts, gitignore, LTspice schematics, and images
-!*.m
-!.gitignore
-!*.asc
-!*.png
-!*.jpg
-!*.jpeg
+# Ignore this specific MATLAB file
+friis_core.m
+
+# Ignore this specific Python file
+generate_app.py
