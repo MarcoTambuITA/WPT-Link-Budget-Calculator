@@ -1,3 +1,6 @@
+# macOS
+.DS_Store
+
 # Ignore only files I don't want
 
 *.md
